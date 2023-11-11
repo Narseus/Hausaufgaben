@@ -1,0 +1,19 @@
+import pandas as pd
+
+##Using "pandas" library is much easier for reading "CSV" files
+
+    df = pd.read_csv(r"E:\Book10.csv")
+    list1 = df.values.tolist()
+
+##I didn't know how to directly print my CSV file recrusievly, so i converted it to a list
+
+def fun():
+
+##Hier ist die function
+
+list1 = [df]
+    return [list1,df]
+
+##At last we call this a recrusive function because it returns something in it's "Define Function"
+##You can use my BRAINY code by simply entring path of your CSV file in line 5
+##A screenshot of my own result is available
