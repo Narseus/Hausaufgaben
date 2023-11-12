@@ -1,6 +1,6 @@
 import pandas as pd
 
-//Using "pandas" library is much easier for reading "CSV" files
+_//Using "pandas" library is much easier for reading "CSV" files_
 
     df = pd.read_csv(r"E:\Book10.csv")
     list1 = df.values.tolist()
