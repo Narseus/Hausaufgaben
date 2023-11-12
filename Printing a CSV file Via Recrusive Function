@@ -1,11 +1,11 @@
 import pandas as pd
 
-_//Using "pandas" library is much easier for reading "CSV" _files_
+#//Using "pandas" library is much easier for reading "CSV" files
 
     df = pd.read_csv(r"E:\Book10.csv")
     list1 = df.values.tolist()
 
-//I didn't know how to directly print my CSV file recrusievly, so i converted it to a list
+#//I didn't know how to directly print my CSV file recrusievly, so i converted it to a list
 
 def fun():
     list1 = [df]
