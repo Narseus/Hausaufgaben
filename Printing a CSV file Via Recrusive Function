@@ -1,4 +1,4 @@
-import { pandas } as pd
+import pandas as pd
 
 //Using "pandas" library is much easier for reading "CSV" files
 
@@ -8,12 +8,9 @@ import { pandas } as pd
 //I didn't know how to directly print my CSV file recrusievly, so i converted it to a list
 
 def fun():
+    list1 = [df]
+  return [list1,df]
 
-//Hier ist die function
-
-list1 = [df]
-    return [list1,df]
-
-//At last we call this a recrusive function because it returns something in it's "Define Function"
+//At last we call this a recrusive function because it returns something in it's "Define Function" in this case it reverse the result
 //You can use my BRAINY code by simply entring path of your CSV file in line 5
 //A screenshot of my own result is available
