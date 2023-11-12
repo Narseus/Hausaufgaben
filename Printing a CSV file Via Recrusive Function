@@ -8,9 +8,9 @@ import pandas as pd
 //I didn't know how to directly print my CSV file recrusievly, so i converted it to a list
 
 def fun():
-    list1 = [df]
-  return [list1,df]
+    list2 = List1[0]
+  return [list2,df]
 
-//At last we call this a recrusive function because it returns something in it's "Define Function" in this case it reverse the result
+//At last we call this a recrusive function because it returns something in it's "Define Function" ; in this case it returns list2 which is defiend to just return the first column
 //You can use my BRAINY code by simply entring path of your CSV file in line 5
 //A screenshot of my own result is available
