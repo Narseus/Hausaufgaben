@@ -1,0 +1,13 @@
+class tree:
+def __init__(self):
+    self.root = None
+number = int(input("write down a number: "))
+def insert(number, tree):
+    if (number < tree.entry):
+        if(tree.left != None):
+            insert(number, tree.left)
+        else:
+            tree.left = tree(number)
+        elif:
+           (tree.right != None)
+            insert(number,tree.right)
