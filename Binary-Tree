@@ -1,13 +1,7 @@
-class tree:
-def __init__(self):
-    self.root = None
-number = int(input("write down a number: "))
-def insert(number, tree):
-    if (number < tree.entry):
-        if(tree.left != None):
-            insert(number, tree.left)
-        else:
-            tree.left = tree(number)
-        elif:
-           (tree.right != None)
-            insert(number,tree.right)
+from binarytree import build 
+
+nodes =[3, 6, 8, 2, 11, 12, 15, 20, 40, 16, 5, 13] 
+
+binary_tree = build(nodes) 
+print("Binary tree: ", 
+      binary_tree) 
