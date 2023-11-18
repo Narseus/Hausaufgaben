@@ -1,0 +1,13 @@
+import math
+import random
+
+smaller = int(input("kamtarin adad ra vared konid: "))
+bigger = int(input("bishtarin adad ra vared konid: "))
+x = random.randint(smaller, bigger)
+guess = int(input("adad ra hads bezanid: "))
+if x == guess:
+ print("afarin shoma be javab residid")
+elif x > guess:
+ print("hads shoma kochektar az adad bood :( ")
+elif x < guess:
+ print("hads shoma bozorgtar az adad bood :( ")
