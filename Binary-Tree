@@ -1,5 +1,3 @@
-$ cat .gitattributes
-*.rb linguist-language=python
 
 from binarytree import build 
 
